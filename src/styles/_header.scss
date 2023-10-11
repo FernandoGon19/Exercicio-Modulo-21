@@ -1,0 +1,38 @@
+@use 'variaveis';
+
+.header {
+    background-color: variaveis.$corPrincipal ;
+
+    &__container {
+        padding: 8px 36px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    img {
+        max-width: 50px;
+    }
+
+    &__links {
+        display: flex;
+        padding: 4px;
+
+        &__item {
+            margin: 5px;
+            color: white;
+            
+            
+            a {
+                letter-spacing: 1px;
+                font-family: 'Bungee', cursive;
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    border-bottom: 2px solid white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@use 'variaveis';
+
+footer {
+    margin-top: 60px;
+    padding: 10px;
+    background-color: variaveis.$corPrincipal ;
+
+    p {
+        color: yellow;
+        font-family: 'Bungee', cursive;
+    }
+}
